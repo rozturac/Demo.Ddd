@@ -1,0 +1,14 @@
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\bin\Debug\netstandard2.1\Lolaflora.Baskets.Application.dll
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\bin\Debug\netstandard2.1\Lolaflora.Baskets.Domain.dll
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\bin\Debug\netstandard2.1\Lolaflora.Baskets.Domain.pdb
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\obj\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.csprojAssemblyReference.cache
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\obj\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\obj\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.AssemblyInfo.cs
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\bin\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.deps.json
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\bin\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.dll
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\bin\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.pdb
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\bin\Debug\netstandard2.1\Lolaflora.Baskets.Application.pdb
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\obj\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\obj\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.csproj.CopyComplete
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\obj\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.dll
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Infrastructure\obj\Debug\netstandard2.1\Lolaflora.Baskets.Infrastructure.pdb

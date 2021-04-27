@@ -1,0 +1,9 @@
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\bin\Debug\netstandard2.0\Lolaflora.Baskets.Domain.deps.json
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\bin\Debug\netstandard2.0\Lolaflora.Baskets.Domain.dll
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\bin\Debug\netstandard2.0\Lolaflora.Baskets.Domain.pdb
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\obj\Debug\netstandard2.0\Lolaflora.Baskets.Domain.csprojAssemblyReference.cache
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\obj\Debug\netstandard2.0\Lolaflora.Baskets.Domain.AssemblyInfoInputs.cache
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\obj\Debug\netstandard2.0\Lolaflora.Baskets.Domain.AssemblyInfo.cs
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\obj\Debug\netstandard2.0\Lolaflora.Baskets.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\obj\Debug\netstandard2.0\Lolaflora.Baskets.Domain.dll
+C:\Users\rozturac\source\repos\Lolaflora.Basket\Lolaflora.Basket.Domain\obj\Debug\netstandard2.0\Lolaflora.Baskets.Domain.pdb

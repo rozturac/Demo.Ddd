@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "g6PiPiYaWNY0fjdUcxFJHCNzi8B5oGB6FDcx/R4bB6lvJ5egfvGulvPUPqkes3xtlWbsmIM16tjDSBsuc6zr7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rozturac\\source\\repos\\Lolaflora.Basket\\Lolaflora.Basket.Domain\\Lolaflora.Baskets.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rozturac\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

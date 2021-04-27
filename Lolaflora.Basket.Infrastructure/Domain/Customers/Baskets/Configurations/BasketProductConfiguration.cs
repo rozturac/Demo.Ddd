@@ -1,0 +1,29 @@
+﻿using Lolaflora.Baskets.Domain.Baskets;
+using Lolaflora.Baskets.Domain.SeedWork;
+using Lolaflora.Baskets.Domain.SharedKernel;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Lolaflora.Baskets.Infrastructure.Domain.Customers.Baskets.Configurations
+{
+    public class BasketProductConfiguration : IEntityTypeConfiguration<BasketProduct>
+    {
+        public void Configure(EntityTypeBuilder<BasketProduct> builder)
+        {
+            builder.OwnsOne(p => p.Value, m =>
+            {
+                m.Property(p => p.Currency).HasConversion(o => o.Value, v => Enumeration.FromValue<Currency>(v)).HasColumnName("Currency");
+                m.Property(p => p.Value).HasColumnName("Value");
+            });
+
+            builder.OwnsOne(p => p.ValueInEUR, m =>
+            {
+                m.Property(p => p.Currency).HasConversion(o => o.Value, v => Enumeration.FromValue<Currency>(v)).HasColumnName("CurrencyInEUR");
+                m.Property(p => p.Value).HasColumnName("ValueInEUR");
+            });
+        }
+    }
+}
