@@ -5,6 +5,7 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Demo.Ddd.Domain.SharedKernel;
 
 namespace Demo.Ddd.Domain.UnitTest
 {
@@ -15,7 +16,7 @@ namespace Demo.Ddd.Domain.UnitTest
         {
             var productCounter = Substitute.For<IProductCounter>();
             productCounter.GetProductCountByCode("TP1").Returns(0);
-            var product = Product.Create("Test Product 1", "TP1", 75.15M, 20, productCounter);
+            var product = Product.Create("Test Product 1", "TP1", MoneyValue.Of(75.15M, Currency.TRY), 20, productCounter);
 
             Assert.AreEqual("TP1", product.Code);
         }
@@ -28,7 +29,7 @@ namespace Demo.Ddd.Domain.UnitTest
 
             Assert.Throws<BusinessRuleValidationException>(() =>
             {
-                Product.Create("Test Product 1", "TP1", 75.15M, 20, productCounter);
+                Product.Create("Test Product 1", "TP1", MoneyValue.Of(75.15M, Currency.TRY), 20, productCounter);
             });
         }
     }

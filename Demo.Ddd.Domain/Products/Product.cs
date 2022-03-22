@@ -3,21 +3,19 @@ using Demo.Ddd.Domain.SeedWork;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Demo.Ddd.Domain.Products.Events;
+using Demo.Ddd.Domain.SharedKernel;
 
 namespace Demo.Ddd.Domain.Products
 {
-    public class Product : Entity<Guid>, IAggregateRoot
+    public sealed class Product : Entity<Guid>, IAggregateRoot
     {
         public string Name { get; protected set; }
         public string Code { get; protected set; }
-        public decimal UnitPrice { get; protected set; }
-        public virtual List<ProductStock> ProductStocks { get; protected set; }
+        public MoneyValue UnitPrice { get; protected set; }
+        public List<ProductStock> ProductStocks { get; protected set; }
 
-        protected Product()
-        {
-            //FOR ORM
-        }
-        protected Product(string name, string code, decimal unitPrice, int productStockQuentity, IProductCounter productCounter)
+        private Product(string name, string code, MoneyValue unitPrice, int productStockQuentity, IProductCounter productCounter)
         {
             CheckRule(new ProductCodeMustBeUniqueRole(productCounter, code));
 
@@ -25,9 +23,11 @@ namespace Demo.Ddd.Domain.Products
             Code = code;
             UnitPrice = unitPrice;
             ProductStocks = new List<ProductStock>() { ProductStock.Create(productStockQuentity, this) };
+            
+            AddDomainEvent(ProductCreated.Create(this));
         }
 
-        protected Product(string name, string code, decimal unitPrice, IProductCounter productCounter)
+        private Product(string name, string code, MoneyValue unitPrice, IProductCounter productCounter)
         {
             CheckRule(new ProductCodeMustBeUniqueRole(productCounter, code));
 
@@ -37,8 +37,8 @@ namespace Demo.Ddd.Domain.Products
             ProductStocks = new List<ProductStock>();
         }
 
-        public static Product Create(string name, string code, decimal unitPrice, int productStockQuentity, IProductCounter productCounter) => new Product(name, code, unitPrice, productStockQuentity, productCounter);
-        public static Product Create(string name, string code, decimal unitPrice, IProductCounter productCounter) => new Product(name, code, unitPrice, productCounter);
+        public static Product Create(string name, string code, MoneyValue unitPrice, int productStockQuantity, IProductCounter productCounter) => new Product(name, code, unitPrice, productStockQuantity, productCounter);
+        public static Product Create(string name, string code, MoneyValue unitPrice, IProductCounter productCounter) => new Product(name, code, unitPrice, productCounter);
         public void AddStock(int quentity) => ProductStocks.Add(ProductStock.Create(quentity, this));
 
         public ProductPriceData GetProductPriceData() => ProductPriceData.Create(Id, UnitPrice);

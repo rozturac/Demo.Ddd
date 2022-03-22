@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Demo.Ddd.Domain.Products.Events;
 
 namespace Demo.Ddd.Domain.Products
 {
@@ -11,23 +12,14 @@ namespace Demo.Ddd.Domain.Products
         public virtual Guid ProductId { get; protected set; }
         public int Quentity { get; set; }
 
-        protected ProductStock()
+        private ProductStock(int quantity, Product product)
         {
-            //FOR ORM
-        }
-
-        protected ProductStock(int quentity)
-        {
-            Quentity = quentity;
-        }
-
-        protected ProductStock(int quentity, Product product)
-        {
-            Quentity = quentity;
             Product = product;
+            Quentity = quantity;
+            
+            AddDomainEvent(StockAdded.Create(this));
         }
-
-        public static ProductStock Create(int quentity) => new ProductStock(quentity);
+        
         public static ProductStock Create(int quentity, Product product) => new ProductStock(quentity, product);
     }
 }

@@ -46,6 +46,16 @@ namespace Demo.Ddd.Domain.SharedKernel
         {
             return new MoneyValue(number * moneyValueRight.Value, moneyValueRight.Currency);
         }
+        
+        public static MoneyValue operator *(MoneyValue moneyValueRight, int number)
+        {
+            return new MoneyValue(number * moneyValueRight.Value, moneyValueRight.Currency);
+        }
+
+        public static MoneyValue operator *(MoneyValue moneyValueRight, decimal number)
+        {
+            return new MoneyValue(number * moneyValueRight.Value, moneyValueRight.Currency);
+        }
     }
 
     public static class SumExtensions

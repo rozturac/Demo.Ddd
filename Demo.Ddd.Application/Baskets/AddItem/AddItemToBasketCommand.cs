@@ -33,8 +33,7 @@ namespace Demo.Ddd.Application.Baskets.AddItemCommand
         public async Task<GenericResult<AddItemToBasketResultDto>> Handle(AddItemToBasketCommand request, CancellationToken cancellationToken)
         {
             var product = await _uow.ProductRepository.GetProductByCode(request.ProductCode);
-
-
+            
             if (product == null)
                 throw new NotFoundException(nameof(Product), request.ProductCode);
 

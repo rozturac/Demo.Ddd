@@ -5,15 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="ForeignExchange\**" />
-    <Compile Remove="SharedKernel\**" />
-    <EmbeddedResource Remove="ForeignExchange\**" />
-    <EmbeddedResource Remove="SharedKernel\**" />
-    <None Remove="ForeignExchange\**" />
-    <None Remove="SharedKernel\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Remove="Products\Rules\ProductPriceCurrencyMustBeTRYRole.cs" />
   </ItemGroup>
 

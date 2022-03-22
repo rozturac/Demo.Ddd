@@ -14,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Linq;
+using Demo.Ddd.Domain.SharedKernel;
 
 namespace Demo.Ddd.Infrastructure.Common.Exntesions
 {
@@ -53,18 +54,18 @@ namespace Demo.Ddd.Infrastructure.Common.Exntesions
             var context = services.BuildServiceProvider().GetService<BasketContext>();
             var productCounter = services.BuildServiceProvider().GetService<IProductCounter>();
 
-            if (!context.Database.CanConnect()) //For DB Migration
+            if (context != null && !context.Database.CanConnect()) //For DB Migration
                 return services;
 
             if (!context.Products.Any())
             {
                 var products = new List<Product>()
                 {
-                    Product.Create("Iphone SE", "MP1", 2000.00M, 50, productCounter),
-                    Product.Create("Iphone 6", "MP2", 2500.00M, 50, productCounter),
-                    Product.Create("Iphone 6S", "MP3", 2800.00M, 50, productCounter),
-                    Product.Create("Iphone 7", "MP4", 3500.00M, 50, productCounter),
-                    Product.Create("Iphone X", "MP5", 4500.00M, 50, productCounter)
+                    Product.Create("Iphone SE", "MP1", MoneyValue.Of(2000.00M, Currency.TRY), 50, productCounter),
+                    Product.Create("Iphone 6", "MP2", MoneyValue.Of(2200.00M, Currency.TRY), 50, productCounter),
+                    Product.Create("Iphone 6S", "MP3", MoneyValue.Of(1400.00M, Currency.TRY), 50, productCounter),
+                    Product.Create("Iphone 7", "MP4", MoneyValue.Of(1200.00M, Currency.TRY), 50, productCounter),
+                    Product.Create("Iphone X", "MP5", MoneyValue.Of(3010.00M, Currency.TRY), 50, productCounter)
                 };
 
                 context.Products.AddRange(products);

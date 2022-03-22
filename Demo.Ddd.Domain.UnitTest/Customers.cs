@@ -7,6 +7,7 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Demo.Ddd.Domain.SharedKernel;
 
 namespace Demo.Ddd.Domain.UnitTest
 {
@@ -39,7 +40,7 @@ namespace Demo.Ddd.Domain.UnitTest
         {
             var productCounter = Substitute.For<IProductCounter>();
             productCounter.GetProductCountByCode("TP1").Returns(0);
-            var product = Product.Create("TP1", "Test Product 1", 75.15M, 20, productCounter);
+            var product = Product.Create("TP1", "Test Product 1", MoneyValue.Of(75.15M, Currency.TRY), 20, productCounter);
 
             var basketCounter = Substitute.For<IBasketCounter>();
             basketCounter.GetProductStockCount(product.Id).Returns(50);
@@ -48,7 +49,7 @@ namespace Demo.Ddd.Domain.UnitTest
             int quantity = 50;
             customer.Basket.AddProduct(product.GetProductPriceData(), quantity, basketCounter);
 
-            Assert.AreEqual(customer.Basket.Value, product.UnitPrice * quantity);
+            Assert.AreEqual(customer.Basket.Value, quantity * product.UnitPrice);
         }
 
         [Test]
@@ -56,7 +57,7 @@ namespace Demo.Ddd.Domain.UnitTest
         {
             var productCounter = Substitute.For<IProductCounter>();
             productCounter.GetProductCountByCode("TP1").Returns(0);
-            var product = Product.Create("TP1", "Test Product 1", 75.15M, 20, productCounter);
+            var product = Product.Create("TP1", "Test Product 1", MoneyValue.Of(75.15M, Currency.TRY), 20, productCounter);
 
             var basketCounter = Substitute.For<IBasketCounter>();
             basketCounter.GetProductStockCount(product.Id).Returns(20);
