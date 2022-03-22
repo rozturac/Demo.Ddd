@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Application/DEMO.Ddd.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Application/DEMO.Ddd.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Application/DEMO.Ddd.Application.csproj",
+        "projectName": "Demo.Ddd.Application",
+        "projectPath": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Application/DEMO.Ddd.Application.csproj",
+        "packagesPath": "/Users/ridvan.ozturac/.nuget/packages/",
+        "outputPath": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ridvan.ozturac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Domain/Demo.Ddd.Domain.csproj": {
+                "projectPath": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Domain/Demo.Ddd.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.0.4, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.0.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/ridvan.ozturac/.dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Domain/Demo.Ddd.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Domain/Demo.Ddd.Domain.csproj",
+        "projectName": "Demo.Ddd.Domain",
+        "projectPath": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Domain/Demo.Ddd.Domain.csproj",
+        "packagesPath": "/Users/ridvan.ozturac/.nuget/packages/",
+        "outputPath": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ridvan.ozturac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/ridvan.ozturac/.dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

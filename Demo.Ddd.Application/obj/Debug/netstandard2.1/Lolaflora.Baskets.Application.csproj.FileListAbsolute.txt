@@ -1,0 +1,12 @@
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\bin\Debug\netstandard2.1\Demo.Ddd.Application.deps.json
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\bin\Debug\netstandard2.1\Demo.Ddd.Application.dll
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\bin\Debug\netstandard2.1\Demo.Ddd.Application.pdb
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\bin\Debug\netstandard2.1\Demo.Ddd.Domain.dll
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\bin\Debug\netstandard2.1\Demo.Ddd.Domain.pdb
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\obj\Debug\netstandard2.1\Demo.Ddd.Application.csprojAssemblyReference.cache
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\obj\Debug\netstandard2.1\Demo.Ddd.Application.AssemblyInfoInputs.cache
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\obj\Debug\netstandard2.1\Demo.Ddd.Application.AssemblyInfo.cs
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\obj\Debug\netstandard2.1\Demo.Ddd.Application.csproj.CoreCompileInputs.cache
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\obj\Debug\netstandard2.1\Demo.Ddd.Application.csproj.CopyComplete
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\obj\Debug\netstandard2.1\Demo.Ddd.Application.dll
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Application\obj\Debug\netstandard2.1\Demo.Ddd.Application.pdb

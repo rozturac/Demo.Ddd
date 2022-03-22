@@ -1,0 +1,9 @@
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\bin\Debug\netstandard2.0\Demo.Ddd.Infrastructure.deps.json
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\bin\Debug\netstandard2.0\Demo.Ddd.Infrastructure.dll
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\bin\Debug\netstandard2.0\Demo.Ddd.Infrastructure.pdb
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\obj\Debug\netstandard2.0\Demo.Ddd.Infrastructure.csprojAssemblyReference.cache
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\obj\Debug\netstandard2.0\Demo.Ddd.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\obj\Debug\netstandard2.0\Demo.Ddd.Infrastructure.AssemblyInfo.cs
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\obj\Debug\netstandard2.0\Demo.Ddd.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\obj\Debug\netstandard2.0\Demo.Ddd.Infrastructure.dll
+C:\Users\rozturac\source\repos\Demo.Ddd\Demo.Ddd.Infrastructure\obj\Debug\netstandard2.0\Demo.Ddd.Infrastructure.pdb

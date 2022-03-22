@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9U4Mf0Cf/ha8w5grTjwzRPrNf//GUi7GlX8iJ4YMJcnTBn7BARQzTDVhsak0LjqXCVkAGWhPRQM5VeBpsuQe/w==",
+  "success": true,
+  "projectFilePath": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Domain/Demo.Ddd.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/ridvan.ozturac/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "zOr7uFjTSOG/QTU3yLyT39Uh2q6uO02n5ZsiwPMuJyzKBnJoT1E5FeW9mPp2zXEA/381kaXhrMbZesshFxonwA==",
+  "success": true,
+  "projectFilePath": "/Users/ridvan.ozturac/Documents/work-space/dotnet/Demo.Ddd/Demo.Ddd.Application/Demo.Ddd.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/ridvan.ozturac/.nuget/packages/fluentvalidation/10.0.4/fluentvalidation.10.0.4.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.0.4/fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
+    "/Users/ridvan.ozturac/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
